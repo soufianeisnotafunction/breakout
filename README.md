@@ -1,1 +1,2 @@
-# js-power
+# Breakout like game made with phaser
+***
