@@ -1,0 +1,27 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cdn": "./node_modules/.bin/http-server --cors -c-1 -p 7000 --proxy http://127.0.0.1:7000/?q= ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.1",
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.3.2"
+  }
+}
